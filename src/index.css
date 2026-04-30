@@ -5,37 +5,28 @@
 @tailwind utilities;
 
 body {
-  background-color: #0d1117;
-  color: #f1f5f9;
+  background-color: #faf7f2;
+  color: #1a1a2e;
   font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
-  background-image: radial-gradient(ellipse at 20% 50%, rgba(249,115,22,0.03) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(249,115,22,0.05) 0%, transparent 40%);
+  background-image: radial-gradient(ellipse at 20% 50%, rgba(249,115,22,0.06) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(249,115,22,0.08) 0%, transparent 40%);
 }
-
-.tiptap {
-  outline: none;
-  min-height: 300px;
-  line-height: 1.75;
-  color: #cbd5e1;
-}
+.tiptap { outline: none; min-height: 300px; line-height: 1.75; color: #374151; }
 .tiptap p { margin-bottom: 1rem; }
-.tiptap h2 { font-size: 1.5rem; font-family: 'Playfair Display', serif; font-weight: 600; margin: 1.5rem 0 0.75rem; color: white; }
-.tiptap h3 { font-size: 1.25rem; font-family: 'Playfair Display', serif; font-weight: 600; margin: 1.25rem 0 0.5rem; color: white; }
+.tiptap h2 { font-size: 1.5rem; font-family: 'Playfair Display', serif; font-weight: 600; margin: 1.5rem 0 0.75rem; color: #111827; }
+.tiptap h3 { font-size: 1.25rem; font-family: 'Playfair Display', serif; font-weight: 600; margin: 1.25rem 0 0.5rem; color: #111827; }
 .tiptap ul { list-style: disc; margin-left: 1.5rem; margin-bottom: 1rem; }
 .tiptap ol { list-style: decimal; margin-left: 1.5rem; margin-bottom: 1rem; }
-.tiptap blockquote { border-left: 4px solid #f97316; padding-left: 1rem; font-style: italic; color: #94a3b8; margin: 1rem 0; }
-.tiptap strong { color: white; font-weight: 600; }
-.tiptap p.is-editor-empty:first-child::before { content: attr(data-placeholder); color: #334155; pointer-events: none; float: left; height: 0; }
-
+.tiptap blockquote { border-left: 4px solid #f97316; padding-left: 1rem; font-style: italic; color: #6b7280; margin: 1rem 0; }
+.tiptap strong { color: #111827; font-weight: 600; }
+.tiptap p.is-editor-empty:first-child::before { content: attr(data-placeholder); color: #d1d5db; pointer-events: none; float: left; height: 0; }
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #0d1117; }
-::-webkit-scrollbar-thumb { background: #334155; border-radius: 9999px; }
-
+::-webkit-scrollbar-track { background: #faf7f2; }
+::-webkit-scrollbar-thumb { background: #e5d5c5; border-radius: 9999px; }
 .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-
-.prose-custom h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; color: white; margin: 1.5rem 0 0.75rem; }
-.prose-custom p { margin-bottom: 1rem; }
+.prose-custom h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; color: #111827; margin: 1.5rem 0 0.75rem; }
+.prose-custom p { margin-bottom: 1rem; color: #374151; }
 .prose-custom ul { list-style: disc; margin-left: 1.5rem; margin-bottom: 1rem; }
-.prose-custom blockquote { border-left: 4px solid #f97316; padding-left: 1rem; font-style: italic; color: #94a3b8; margin: 1rem 0; }
-.prose-custom strong { color: white; font-weight: 600; }
+.prose-custom blockquote { border-left: 4px solid #f97316; padding-left: 1rem; font-style: italic; color: #6b7280; margin: 1rem 0; }
+.prose-custom strong { color: #111827; font-weight: 600; }

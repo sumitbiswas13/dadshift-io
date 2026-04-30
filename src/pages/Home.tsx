@@ -45,7 +45,7 @@ export default function Home() {
           <span className="text-brand-400">All of them.</span>
         </h1>
         <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed">
-          Real stories from dads navigating careers, kids, and everything in between. No filters. No highlights reel.
+          Real stories from dads who move through many roles — partner, son, brother, friend — carrying care and presence into the lives they touch, without seeking applause or the spotlight.
         </p>
         {!user && (
           <button onClick={signInWithGoogle} className="btn-primary mt-8 mx-auto text-base px-8 py-3">
