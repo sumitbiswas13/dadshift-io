@@ -41,7 +41,7 @@ export default function Home() {
           <span className="text-brand-400 text-xs font-mono uppercase tracking-widest">The Dad Community</span>
         </div>
         <h1 className="font-display text-5xl sm:text-6xl font-700 text-white mb-4 leading-tight">
-          Every shift counts.<br />
+          <span style={{color:"#111827"}}>Every shift counts.</span><br />
           <span className="text-brand-400">All of them.</span>
         </h1>
         <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed">
