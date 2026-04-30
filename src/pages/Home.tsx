@@ -45,7 +45,7 @@ export default function Home() {
           <span className="text-3xl sm:text-4xl font-normal italic" style={{color:'#6b7280'}}>That is what Dads do!</span>
         </h1>
         <p className="text-lg max-w-xl mx-auto leading-relaxed mt-4" style={{color:'#374151'}}>
-          Real stories from dads who move through many roles — partner, son, brother, friend — carrying care and presence into the lives they touch, without seeking applause or the spotlight.
+          Real stories from dads who have lived every role — son first, then brother, then friend, then partner, and now dad — carrying care and presence through every chapter, without seeking applause or the spotlight.
         </p>
       </div>
 
