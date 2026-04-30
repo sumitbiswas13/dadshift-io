@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <h1 className="font-display text-5xl sm:text-6xl font-700 text-white mb-4 leading-tight">
           Every shift counts.<br />
-          <span className="text-brand-400">Both of them.</span>
+          <span className="text-brand-400">All of them.</span>
         </h1>
         <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed">
           Real stories from dads navigating careers, kids, and everything in between. No filters. No highlights reel.
