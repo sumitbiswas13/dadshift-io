@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0d1117;
+  color: #f1f5f9;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  background-image: radial-gradient(ellipse at 20% 50%, rgba(249,115,22,0.03) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(249,115,22,0.05) 0%, transparent 40%);
+}
+
+.tiptap {
+  outline: none;
+  min-height: 300px;
+  line-height: 1.75;
+  color: #cbd5e1;
+}
+.tiptap p { margin-bottom: 1rem; }
+.tiptap h2 { font-size: 1.5rem; font-family: 'Playfair Display', serif; font-weight: 600; margin: 1.5rem 0 0.75rem; color: white; }
+.tiptap h3 { font-size: 1.25rem; font-family: 'Playfair Display', serif; font-weight: 600; margin: 1.25rem 0 0.5rem; color: white; }
+.tiptap ul { list-style: disc; margin-left: 1.5rem; margin-bottom: 1rem; }
+.tiptap ol { list-style: decimal; margin-left: 1.5rem; margin-bottom: 1rem; }
+.tiptap blockquote { border-left: 4px solid #f97316; padding-left: 1rem; font-style: italic; color: #94a3b8; margin: 1rem 0; }
+.tiptap strong { color: white; font-weight: 600; }
+.tiptap p.is-editor-empty:first-child::before { content: attr(data-placeholder); color: #334155; pointer-events: none; float: left; height: 0; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0d1117; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 9999px; }
+
+.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+.prose-custom h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; color: white; margin: 1.5rem 0 0.75rem; }
+.prose-custom p { margin-bottom: 1rem; }
+.prose-custom ul { list-style: disc; margin-left: 1.5rem; margin-bottom: 1rem; }
+.prose-custom blockquote { border-left: 4px solid #f97316; padding-left: 1rem; font-style: italic; color: #94a3b8; margin: 1rem 0; }
+.prose-custom strong { color: white; font-weight: 600; }
